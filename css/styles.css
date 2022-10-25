@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+h2{
+position: absolute;
+width: 394px;
+height: 66px;
+left: 403px;
+top: 775px;
+
+font-family: 'Titan One';
+font-style: normal;
+font-weight: 400;
+font-size: 58px;
+line-height: 66px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #D41443;
+}
+
+h3{
+font-family: 'Titan One';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.product-card{
+position: absolute;
+display: flex;
+flex-direction: column;
+width: 368px;
+height: auto;
+top: 1122px;
+
+border-radius: 24px;
+}
+
+.product-card:nth-child(1){
+background:#FFB8CA;
+left:16px;
+}
+
+.product-card:nth-child(2){
+/*margin-right: 32px;
+margin-left: 32px;*/
+background:#F0D1A5;
+left:416px;
+}
+
+.product-card:nth-child(3){
+background: #C2E297;
+left: 816px;
+}
+
+.product-card-collection{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card-description{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 176%;
+/* or 28px */
+
+text-align: center;
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+
+.product-card-image{
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.slogan{
+position: absolute;
+width: 280.3px;
+height: 34px;
+left: 460.41px;
+top: 725px;
+
+font-family: 'Titan One';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color: #FFA5BA;
+}
